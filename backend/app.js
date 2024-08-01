@@ -15,8 +15,11 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Configure CORS to allow multiple origins
 const allowedOrigins = [
-    'http://localhost:3000',
-    'http://localhost:5173'
+    // 'http://localhost:3000',
+    // 'http://localhost:5173'
+
+   'https://amaan-typebot2-q1uu.vercel.app'
+   
 ];
 
 app.use(cors({
