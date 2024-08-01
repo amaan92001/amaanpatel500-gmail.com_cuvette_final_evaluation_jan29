@@ -1,0 +1,56 @@
+
+/* header css */
+
+.landing-page{
+    background: linear-gradient(180deg, #171923 0%, #1A202C 100%);
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
+    padding-top: 40px;
+  }
+  
+  .logo{
+    display: inline-flex;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-text{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+  }
+  .header-buttons{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .signin-button{
+    width: 87px;
+    height: 40px;
+    background: transparent;
+    color: #7EA6FF;
+    border: 2px solid #7EA6FF;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .create-button{
+    width: 173px;
+    height: 40px;
+    background-color: #1A5FFF;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    border: 2px solid #1A5FFF;
+    border-radius: 6px;
+    cursor: pointer;
+  }

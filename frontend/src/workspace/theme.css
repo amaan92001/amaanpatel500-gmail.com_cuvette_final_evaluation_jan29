@@ -1,0 +1,94 @@
+.theme-sidebar{
+    width: 26%;
+    height: 842px;
+    background-color: #18181B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.light-theme:hover,
+.dark-theme:hover,
+.blue-theme:hover{
+    cursor: pointer;
+    border: #1b5ffe 5px solid;
+    border-radius:8px ;
+}
+.light-theme,
+.dark-theme,
+.blue-theme{
+    cursor: pointer;
+    border: transparent 5px solid;
+    border-radius:8px ;
+}
+
+.blue-theme{
+padding: 15px
+;}
+
+.theme-title{
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0.03em;
+color: white;
+border: 2px solid #2C2C2F;
+border-left: none;
+border-right: none;
+padding: 30px 60px;
+}
+
+.customize-theme{
+    display: flex;
+    width: 100%;
+}
+
+.theme-area{
+    background-color: white;
+    width: 74%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.admin-msg{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.circle-msg-icon{
+    font-size: 40px;
+    color: blue;
+    padding-right: 20px;
+}
+
+.admin-text{
+    font-size: 20px;
+    font-weight: 400;   
+    font-family: "Open Sans", sans-serif;
+    background-color: aquamarine;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.user-text{
+    font-size: 20px;
+    font-weight: 400;   
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #0143DA;
+    margin-right: 20px;
+}
+
+.user-msg{
+    position: relative;
+    top: 50px;
+}
+
+.msg-area{
+    display: flex;
+    justify-content: space-between;
+}

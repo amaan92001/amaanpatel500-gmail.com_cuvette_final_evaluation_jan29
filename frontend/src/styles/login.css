@@ -1,0 +1,104 @@
+
+/*Login page css*/
+
+.login-form {
+  background-color: #1E1E1E;
+  height: 100vh;
+}
+    
+    .back-button{
+      padding: 0 66px;
+      padding-top: 70px;
+      cursor: pointer;
+    }
+    
+    .form-inputs{
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    
+    .bottom-circle{
+      position: absolute;
+      bottom: 0;
+      right: 300px;
+    }
+    
+    .left-circle{
+      position: absolute;
+      top:40px;
+      right: 0;
+    }
+    
+    .right-vector{
+      position: absolute;
+      left: 0;
+    }
+    
+    .login-signup-inputs{
+      width: 303px;
+      height: 41px;
+      background-color: transparent;
+      outline: none;
+      margin-bottom: 20px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+      padding-left: 10px;
+      color: white;
+      margin-top: 6px;
+      font-weight: 300;
+    }
+    
+    label{
+      font-size: 14px;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    .login-button{
+      width: 313px;
+      height: 41px;
+      padding: 10px 40px;
+      background-color: #1A5FFF;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px 0px rgba(233, 68, 75, 0.25);
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    .register-link{
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      margin-top: 14px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+    }
+    
+    ::placeholder{
+      color: #636364;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 3%;
+    }
+    
+    span{
+      color: #1A5FFF;
+      font-family: "Inter", sans-serif;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    .register-link .link-style {
+      text-decoration: none;
+    }
+
+    .input-error {
+      border: 1px solid red;
+  }
+  

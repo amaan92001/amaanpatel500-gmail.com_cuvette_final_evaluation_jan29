@@ -1,0 +1,204 @@
+
+.settings-page{
+    background-color: #1E1E1E;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings-title{
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.settings-text-input{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    border: 2px solid #D0D0D0;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin-bottom: 22px;
+}
+
+.settings-text-input-box{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.settings-text-input-box::placeholder{
+    font-size: 20px;
+}
+
+
+.settings-email-input{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    border: 2px solid #D0D0D0;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin-bottom: 22px;
+}
+
+.settings-email-input-box{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.settings-email-input-box::placeholder{
+    font-size: 20px;
+}
+
+
+.settings-password-input{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    border: 2px solid #D0D0D0;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin-bottom: 22px;
+}
+
+.settings-password-input-box{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.settings-password-input-box::placeholder{
+    font-size: 20px;
+}
+
+
+.settings-new-password-input{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    border: 2px solid #D0D0D0;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin-bottom: 40px;
+}
+
+.settings-new-password-input-box{
+    width: 493px;
+    height: 55px;
+    border-radius: 11px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.settings-new-password-input-box::placeholder{
+    font-size: 20px;
+}
+
+.settings-update-button{
+    width: 522px;
+    height: 55px;
+    border-radius: 55px;
+    background-color: #1A5FFF;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+}
+
+.eye-icon-email,
+.eye-icon-password,
+.eye-icon-new-password{
+    cursor: pointer;
+    font-size: 35px;
+    color: #828282;
+}
+
+.settings-page-logout{
+    display: flex;
+}
+
+.logout-box{
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 67px;
+    gap: 10px;
+    width: -webkit-fill-available;
+    cursor: pointer;
+}
+
+.settings-logout-text{
+    font-size: 16px;
+    color: #CF3636;
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+}
+
+.settings-page-link{
+    text-decoration: none;
+}
+
+.error{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #CF3636;
+    font-family: "Poppins", sans-serif;
+}
+
+.success{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1A5FFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.eye-icon-email, .eye-icon-password, .eye-icon-new-password {
+    cursor: pointer;
+}
